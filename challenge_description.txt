@@ -1,0 +1,12 @@
+Dear candidate,
+
+we would like you to submit a solution to this Data Science problem.
+The attached dataset ("view_model_challenge.csv") is a dataset of 619 YouTube videos in French, German and Italian.
+The dataset columns correspond to video metadata, some extracted features (genome_ and recipe_) and the target variable "Views".
+
+Goal of this task is to create a model which is able to estimate the number of views.
+
+We would like you to explore a couple of different models (e.g. try different splitting, different model architecture, ...). 
+Finding a successful model with this dataset might be very challenging (if not impossible), so even if the model is not able to learn, the most important thing is presenting your results and explaining what worked and what did not. 
+
+Hint: Some of the videos were released on the same date ("publish_date") in French, German and Italian. In order not to have any leakage between training and test set, you should split data in a way that all videos released on the same date will be either in the training or test set.
